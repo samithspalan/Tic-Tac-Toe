@@ -41,6 +41,12 @@ body{
     width: 100%;
     background:transparent;
     box-shadow: 2px 5px 10px rgba(0,0,0,0.8),-2px -5px 10px rgba(0,0,0,0.8);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-size: 50px;
 }
 .box:hover{
     box-shadow:inset 2px 5px 10px rgba(0,0,0,0.8);
