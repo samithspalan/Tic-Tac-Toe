@@ -51,6 +51,7 @@ body{
     width: 50%;
     font-size: 40px;
     font-weight: 700;
+    border-radius: 10px;
 }
 .box1{
     border-radius: 10px 0px 0px  0px;
@@ -94,6 +95,18 @@ body{
 }
 .o{
     color: white;
+}
+.msg{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    align-content:center;
+    justify-content:center;
+    color: aliceblue;
+    
+}
+.hide{
+    display: none;
 }
 
 
