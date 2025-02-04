@@ -8,6 +8,8 @@ let winnerCondition = [
 
 box.forEach(boxes => {
     boxes.addEventListener('click',()=>{
+        if (boxes.innerText !== "") return;
+
         if(turnX){
         boxes.innerText="X";
         boxes.style.color="rgb(174,51,96)"
@@ -29,8 +31,11 @@ function checkWinner(){
         let box3=box[condition[2]].innerText;
         if(box1!=="" && box2!=="" && box3!=="" ){
             if(box1===box2 && box2===box3){
-                console.log("winner");
+                showResult(box1);
             }
         }
     }
+}
+function showResult(result){
+    
 }
