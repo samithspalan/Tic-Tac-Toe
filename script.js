@@ -1,5 +1,7 @@
 let box=document.querySelectorAll(".box");
 let turnX=true;
+let turn1=document.querySelector(".x");
+let turn2=document.querySelector(".o");
 let winnerCondition = [
     [0,1,2], [3,4,5], [6,7,8], // Rows
     [0,3,6], [1,4,7], [2,5,8], // Columns
@@ -13,10 +15,14 @@ box.forEach(boxes => {
         if(turnX){
         boxes.innerText="X";
         boxes.style.color="rgb(174,51,96)"
+        turn2.classList.add("bs");
+        turn1.classList.remove("bs");
         turnX=false;
 
         }else{
         boxes.innerText="O"
+        turn1.classList.add("bs");
+        turn2.classList.remove("bs");
         turnX=true;
 
         }
@@ -37,5 +43,5 @@ function checkWinner(){
     }
 }
 function showResult(result){
-    
+
 }
