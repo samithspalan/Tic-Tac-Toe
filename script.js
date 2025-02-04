@@ -3,7 +3,7 @@ let turnX=true;
 let turn1=document.querySelector(".x");
 let turn2=document.querySelector(".o");
 let msg=document.querySelector(".msg");
-let result=document.querySelector("#winner");
+let res=document.querySelector("#winner");
 let winnerCondition = [
     [0,1,2], [3,4,5], [6,7,8], // Rows
     [0,3,6], [1,4,7], [2,5,8], // Columns
@@ -45,5 +45,7 @@ function checkWinner(){
     }
 }
 function showResult(result){
+    msg.classList.remove("hide")
+    res.innerText=result;
 
 }

@@ -101,9 +101,11 @@ body{
     width: 100%;
     display: flex;
     align-content:center;
+    text-align:center;
     justify-content:center;
     color: aliceblue;
-    
+    gap: 5px;
+    padding-top: 90px;
 }
 .hide{
     display: none;
