@@ -142,5 +142,42 @@ body{
 
 }
 
+/* For Login Page */
+.login{
+    background-color: #262323;
+    height: 99%;
+    width: 50%;
+    box-shadow: 2px 5px 10px rgba(0,0,0,0.8),-2px -5px 10px rgba(0,0,0,0.8);
+    display: block;
+    align-items: center;
+    justify-content:center;
+    
+}
+.outer{
+    background: rgb(22, 22, 22);
+}
+.heading{
+    height: 10%;
+    width: 100%;
+    font-size: xx-large;
+    font-weight: 700;
+    padding-top: 15px;
+    color: rgb(176, 144, 101);
+}
+.img{
+    height: 80%;
+    width: 85%;
+    padding-left: 50px;
+
+}
+.footer{
+    height: 10%;
+    width: 100%;
+}
+.para{
+    color: rgb(176, 144, 101);
+    font-size: large;
+}
+
 
 
