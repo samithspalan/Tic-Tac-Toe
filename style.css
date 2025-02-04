@@ -136,6 +136,11 @@ body{
     color: rgba(255, 235, 205, 0.509);
     font-size: small;
 }
+.b-s{
+    box-shadow:inset 2px 5px 10px rgba(0,0,0,0.8);
+    font-size: small;
+
+}
 
 
 
