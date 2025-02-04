@@ -21,6 +21,7 @@ body{
     max-width: 450px;
     background: #282525;
     padding: 0px 10px ;
+    position: relative;
 }
 .turn{
     width: 100%;
@@ -85,6 +86,7 @@ body{
     display: flex;
     color: white;
     font-size: 50px;
+    cursor: pointer;
 }
 .hover:hover{
     box-shadow:inset 2px 5px 10px rgba(0,0,0,0.8);
@@ -105,10 +107,35 @@ body{
     justify-content:center;
     color: aliceblue;
     gap: 5px;
-    padding-top: 90px;
+    padding-top: 60px;
 }
 .hide{
     display: none;
 }
+.btn{
+    position: absolute;
+    bottom: 5vh;
+    width: 100px;
+    padding: 10px 5px;
+    background:none;
+    box-shadow: 2px 5px 10px rgba(0,0,0,0.8),-2px -5px 10px rgba(0,0,0,0.8);
+    box-shadow:inset 2px 5px 10px rgba(0,0,0,0.8);
+    border-radius: 5px;
+    color: blanchedalmond;
+    cursor: pointer;
+
+}
+#ng{
+    right:5vw;
+}
+#reset{
+    left:5vw;
+    
+}
+.btn:hover{
+    color: rgba(255, 235, 205, 0.509);
+    font-size: small;
+}
+
 
 
