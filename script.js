@@ -40,6 +40,7 @@ function checkWinner(){
         if(box1!=="" && box2!=="" && box3!=="" ){
             if(box1===box2 && box2===box3){
                 showResult(box1);
+                disableGame(); 
             }
         }
     }
@@ -47,5 +48,11 @@ function checkWinner(){
 function showResult(result){
     msg.classList.remove("hide")
     res.innerText=result;
+    if(result==="X"){
+        res.style.color="rgb(174,51,96)";
+    }
 
+}
+function disableGame() {
+    box.forEach((boxes) => boxes.style.pointerEvents = "none");
 }

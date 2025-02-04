@@ -86,7 +86,7 @@ body{
     color: white;
     font-size: 50px;
 }
-.box:hover{
+.hover:hover{
     box-shadow:inset 2px 5px 10px rgba(0,0,0,0.8);
 
 }
